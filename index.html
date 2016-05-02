@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ayuda Ecuador</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/build/css/main.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="Header">
+      <div class="Header-wrapper">
+        <div class="Header-hamburger" id="menu-hamburger">
+          <div class="Header-lineswrapper">
+            <span class="Header-lines"></span>
+            <span class="Header-lines"></span>
+            <span class="Header-lines"></span>
+          </div>
+        </div>
+        <nav class="Header-nav" id="menu-nav">
+          <ul>
+            <li><a href="#reportar">Reportar</a></li>
+            <li><a href="#mapa">Mapa de reportes</a></li>
+            <li><a href="#ayuda">Ayuda</a></li>
+            <li><a href="#informacion">Información</a></li>
+          </ul>
+        </nav>
+        <div class="Header-maininfo">
+          <img src="/assets/logomobile.png" alt="Logo" class="Header-logo-mobile">
+          <img src="/assets/logodesktop.png" alt="Logo" class="Header-logo-desktop">
+        </div>
+      </div>
+    </header>
+
+    <section class="Hero container">
+      <div class="row wrapper">
+        <div class="mobile-col-12 desktop-col-6 desktop-col-offset-3">
+          <h2>Reporta</h2>
+          <p>tus necesidades, incidentes o emergencia en las zonas afectadas</p>
+        </div>
+      </div>
+      <div class="row wrapper">
+        <div class="mobile-col-12 desktop-col-4 desktop-col-offset-4">
+          <a href="#" class="button">Reporta</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="Report container" id="reportar">
+      <div class="row wrapper">
+        <div class="mobile-col-12">
+          <a class="Report-link" href="#">¿Cómo reportar?</a>
+        </div>
+      </div>
+      <div class="row wrapper">
+        <div class="mobile-col-12 desktop-col-6">
+          <h4>
+            <span class="icon--small icon-pointer"></span>
+            Reporte vía web
+          </h4>
+          <p>
+            Ingresa a
+            <a href="#">mapa.ayudaecuador.ec</a>
+          </p>
+            <ul class="list-checked">
+              <li>Selecciona una categoría para el reporte</li>
+              <li>Llena una descripción detallada del evento: dirección, fuentes de información, detalles</li>
+              <li>Tus datos personales son opcionales</li>
+              <li>Fotos y videos son opcionales</li>
+            </ul>
+          <hr>
+          <h4>
+            <span class="icon--small icon-android"></span>
+            Reporte vía Android
+          </h4>
+          <p>Descarga nuestra app, consulta reportes existentes y agrega nuevos</p>
+          <a href="https://play.google.com/store/apps/details?id=ec.desastre.android.app">
+            <img class="playstore" src="/assets/playstore.png" alt="Descárgalo en Google Play">
+          </a>
+          <hr>
+        </div>
+        <div class="mobile-col-12 desktop-col-6">
+          <h4>
+            <span class="icon--small icon-sms"></span>
+            Reporte vía SMS
+          </h4>
+          <p>
+            <span>
+              Reporta
+              <strong>gratis</strong>
+               al
+               <strong>1408</strong>
+             </span>
+            con un mensaje de texto desde cualquier operadora
+          </p>
+          <div class="container">
+            <div class="row">
+              <div class="desktop-col-6">
+                <p>Informa sobre</p>
+                <ul class="list-checked">
+                  <li>Emergencias</li>
+                  <li>Amenazas</li>
+                  <li>Logística</li>
+                  <li>Personas desaparecidas</li>
+                </ul>
+              </div>
+              <div class="desktop-col-6">
+              <p>Detalla</p>
+              <ul class="list-checked">
+                <li>Ciudad</li>
+                <li>Parroquia</li>
+                <li>Dirección exacta (opcional)</li>
+              </ul>
+              <hr>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="Map container" id="mapa">
+      <div class="row wrapper">
+        <div class="mobile-col-12">
+          <span class="icon-map icon--big"></span>
+          <h4>Mapa de reportes</h4>
+          <p>Conoce todos los reportes que ya se han levantado en el mapa y busca dónde puedes ayudar</p>
+          <iframe scrolling="no" class="tw-map" src="https://mapa.desastre.ec/embed"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="Help container" id="ayuda">
+      <div class="row wrapper">
+        <div class="mobile-col-12 desktop-col-6">
+          <h4>¿Quieres ayudar?</h4>
+          <a href="https://docs.google.com/forms/d/1MzwMc_TBgDfF4_LiJHNsaTpFEC_RG-om1dQInvpzUV4/viewform#responses/" class="button">Sé voluntario</a>
+          <a href="https://docs.google.com/forms/d/1J2FlUmq7-W2f7Wc4nm1brJZX4ik3g_nKErNacElB8J8/viewform" class="button">Verificar datos</a>
+          <a href="https://docs.google.com/forms/d/1F369FBvTUNMxspAI5aoH2FPohXwG46DpefnoB2Hr_Y4/viewform" class="button">En el sitio</a>
+        </div>
+        <div class="mobile-col-12 desktop-col-6">
+          <h4>¿Qué se puede donar?</h4>
+          <div class="accordion">
+
+            <label for="one">
+            <input id="one" type="radio" name="accordion">
+            <div class="title">
+              <h6>
+                <span class="icon-marmalade"></span>
+                Alimentos</h6>
+            </div>
+            <div class="content">
+              <ul class="list-checked">
+                <li>Agua</li>
+                <li>Avena</li>
+                <li>Sal</li>
+                <li>Azúcar</li>
+                <li>Enlatados</li>
+                <li>Fideos</li>
+                <li>Sopas en polvo</li>
+                <li>Harinas</li>
+                <li>Leche en polvo</li>
+                <li>Galletas</li>
+                <li>Barras energéticas</li>
+                <li>Chocolate</li>
+                <li>Aceite</li>
+                <li>Alimento para mascotas</li>
+              </ul>
+            </div>
+            </label>
+
+            <label for="two">
+            <input id="two" type="radio" name="accordion">
+            <div class="title">
+              <h6>
+                <span class="icon-hammer"></span>
+                Herramientas</h6>
+            </div>
+            <div class="content">
+              <ul class="list-checked">
+                <li>Martillos</li>
+                <li>Clavos</li>
+                <li>Alambre</li>
+                <li>Cuerdas y sogas</li>
+                <li>Alicates y playos</li>
+                <li>Picos y palas</li>
+                <li>Machetes</li>
+                <li>Poleas</li>
+              </ul>
+            </div>
+            </label>
+
+            <label for="three">
+            <input id="three" type="radio" name="accordion">
+            <div class="title">
+              <h6>
+                <span class="icon-medicine"></span>
+                Medicina</h6>
+            </div>
+            <div class="content">
+              <ul class="list-checked">
+                <li>Ibuprofeno</li>
+                <li>Amoxicilina</li>
+                <li>Paracetamol</li>
+                <li>Anticépticos</li>
+                <li>Alcohol</li>
+                <li>Agua oxigenada</li>
+                <li>Gasas</li>
+                <li>Vendas</li>
+                <li>Guantes quirúrgicos 7 y 8</li>
+                <li>Suero oral</li>
+                <li>Hidratantes</li>
+                <li>Algodón</li>
+                <li>Formol</li>
+                <li>Repelente</li>
+              </ul>
+            </div>
+            </label>
+
+            <label for="four">
+            <input id="four" type="radio" name="accordion">
+            <div class="title">
+              <h6>
+                <span class="icon-lantern"></span>
+                Insumos</h6>
+            </div>
+            <div class="content">
+              <ul class="list-checked">
+                <li>Desinfectantes</li>
+                <li>Colchones</li>
+                <li>Cloro</li>
+                <li>Papel higiénico</li>
+                <li>Toallas higiénicas</li>
+                <li>Pilas y baterías</li>
+                <li>Linternas</li>
+                <li>Cajas de cartón</li>
+                <li>Cinta de embalaje</li>
+                <li>Fundas industriales para basura</li>
+                <li>Platos y vasos plásticos</li>
+                <li>Cubiertos plásticos</li>
+                <li>Mosquiteros y toldos</li>
+              </ul>
+            </div>
+            </label>
+
+            <label for="five">
+            <input id="five" type="radio" name="accordion">
+            <div class="title">
+              <h6>
+                <span class="icon-clothes"></span>
+                Ropa</h6>
+            </div>
+            <div class="content">
+              <ul class="list-checked">
+                <li>Cobijas</li>
+                <li>Botas de trabajo</li>
+                <li>Impermeables</li>
+              </ul>
+            </div>
+            </label>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="Press container" id="informacion">
+      <div class="row wrapper">
+        <div class="mobile-col-12">
+          <span class="icon-news icon--big"></span>
+          <h4 class="text-center">Boletines de prensa</h4>
+          <div class="container">
+            <div class="row">
+              <div class="desktop-col-6">
+                <a href="#">Colaboración ciudadana para canalizar ayuda en las zonas de desastre</a>
+              </div>
+              <div class="desktop-col-6">
+                <a href="#">Reporta las necesidades de las zonas afectadas por el sismo enviando SMS gratuitos al 1408</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="Footer">
+      <a href="#">
+        <div class="Footer-totop"></div>
+      </a>
+      <div class="Footer-container">
+        <a href="#" class="Footer-links">¿Quiénes somos?</a>
+        <a href="#" class="Footer-links">Enlaces de información oficial</a>
+      </div>
+      <div class="Footer-networks">
+        <a href="#">
+          <img src="/assets/facebook.png" alt="Facebook" />
+        </a>
+        <a href="#">
+          <img src="/assets/twitter.png" alt="Twitter" />
+        </a>
+      </div>
+      <img src="/assets/logodesktop.png" alt="Logo" class="Footer-logo" />
+    </footer>
+
+    <section class="Attribution container">
+      <div class="row">
+        <div class="mobile-col-12">
+          <p>
+            Iconos diseñados por
+            <a title="Freepik" href="http://www.freepik.com">Freepik</a>
+            de
+            <a title="Flaticon" href="http://www.flaticon.com">www.flaticon.com</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Scripts -->
+    <script>
+    (function() {
+
+      // Header
+      var menuHamburger = document.getElementById('menu-hamburger');
+      var menuNav = document.getElementById('menu-nav');
+      function toggleAndShowMenu() {
+        menuHamburger.classList.toggle('open-hamburger');
+        menuNav.classList.toggle('nav-open');
+      }
+      menuHamburger.addEventListener('click', toggleAndShowMenu);
+
+      // Radios
+      var allRadios = document.getElementsByName('accordion');
+      var randomRadio, x;
+      for(x = 0; x < allRadios.length; x++){
+        allRadios[x].onclick = function() {
+          if(randomRadio == this) {
+            this.checked = false;
+            randomRadio = null;
+          }
+          else {
+            randomRadio = this;
+          }
+        }
+      }
+
+    })()
+    </script>
+
+</body>
+</html>

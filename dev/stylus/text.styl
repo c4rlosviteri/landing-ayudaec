@@ -1,0 +1,67 @@
+a
+  color $blue
+
+blockquote
+  color $blue
+  border-left 0.25rem solid rgba($blue, .5)
+  font-weight 300
+  line-height 1.5rem
+  margin 1rem
+  padding-left 3rem
+  position relative
+  &:before
+    color rgba($blue, .5)
+    content open-quote
+    font-size 4rem
+    font-weight 700
+    left .8rem
+    position absolute
+    top 1rem
+
+code
+  background $lightengray
+  border-radius .25rem
+  display block
+  margin 1rem
+  padding 1rem
+
+h1, h2, h3, h4, h5, h6
+  margin 1rem 0
+
+h1
+  font-weight 700
+  font-size 2rem
+  text-transform uppercase
+
+h2
+  font-weight 400
+  font-size 2rem
+  text-transform uppercase
+
+h3
+  font-family "Roboto Slab"
+  font-weight 700
+  font-size 1.5rem
+
+h4
+  font-family "Roboto Slab"
+  font-weight 400
+  font-size 1.5rem
+
+h5
+  font-weight 700
+  font-size 1.5rem
+
+h6
+  font-weight 400
+  font-size 1.5rem
+
+hr
+  border none
+  background $lightengray
+  height 1px
+  margin-bottom 1rem
+  width 100%
+
+p
+  line-height 1.5rem

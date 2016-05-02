@@ -1,0 +1,97 @@
+.icon
+  &--big
+    display block
+    font-size 6rem
+    margin-bottom 1.5rem
+    text-align center
+  &--small
+    bottom -.25rem
+    font-size 2rem
+    position relative
+
+.playstore
+  display block
+  margin 0 auto
+  width 240px
+
+.Hero
+  background $yellow
+  letter-spacing 1.5px
+  padding 2rem 2rem 1rem 2rem
+  h2
+    font-size 1.5rem
+    margin 0 0 .5rem 0
+    text-align center
+  p
+    margin 0
+    text-align center
+
+.Report
+  padding 2rem
+  hr
+    margin-top 2rem
+  &-link
+    display block
+    margin-bottom 2rem
+    position relative
+    text-align center
+    &:after
+      content '▼'
+      display inline-block
+      font-weight 700
+      position absolute
+      left calc(50% - 4px)
+      top 1.25rem
+  p
+    color $blue
+
+.Map
+  padding 2rem
+  h4
+    text-align center
+  iframe
+    border none
+    height 320px
+    width 100%
+  p
+    text-align center
+
+.Help
+  background $yellow
+  padding 2rem
+  h4
+    color $blue
+    text-align center
+  .list-checked
+    li
+      &:before
+        color $black
+
+.Press
+  padding 2rem 2rem .5rem 2rem
+  a
+    display block
+    margin-bottom 1rem
+  h4
+    margin-bottom 2rem
+    text-align center
+
+.Attribution
+  color $blue
+  p
+    font-size .75rem
+    text-align center
+
+@media (min-width: 1024px)
+  html
+    font-size 1.125rem
+  .Hero
+    padding 4rem 2rem 3rem 2rem
+  .Report
+    hr
+      display none
+  .Map
+    iframe
+      height 480px
+  .Help>div>div
+    padding 0 2rem

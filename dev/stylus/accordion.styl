@@ -1,0 +1,40 @@
+.accordion
+  label
+    display block
+    overflow hidden
+  .title
+    border-bottom 1px solid white
+    cursor pointer
+    position relative
+    padding .5rem 1rem
+    &:after
+      color white
+      content "▼"
+      font-size 1.5rem
+      position absolute
+      right 1rem
+      top .125rem
+    h6
+      font-size 1.25rem
+      margin 0
+  .content
+    height 0px
+    margin-bottom .5rem
+    position relative
+    transition all .3s ease
+    ul
+      margin 0
+      padding 1rem
+      position relative
+      opacity 0
+      transform scale(0)
+      transition all .3s ease
+  input[type="radio"]
+    display none
+    &:checked + .title:after
+      content "▲"
+    &:checked + .title + .content
+      height auto
+    &:checked + .title + .content ul
+      opacity 1
+      transform scale(1)

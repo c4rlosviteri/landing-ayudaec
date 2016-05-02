@@ -1,0 +1,35 @@
+// Vars
+
+vendor-prefixes = ms moz official webkit
+$yellow = #fdd315
+$blue = #27527e
+$black = #1c1c1c
+$gray = #515254
+$lightengray = lighten($gray, 85%)
+$midgray = $lighten($gray, 30%)
+
+// Imports
+
+@import url("normalize.css")
+@import "nib"
+@import "grid.styl"
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,300,700")
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700")
+
+*
+  box-sizing border-box
+
+html
+  color $black
+  font-family "Roboto"
+  font-size 16px
+
+@import "text.styl"
+@import "icons.styl"
+@import "header.styl"
+@import "footer.styl"
+@import "form.styl"
+@import "accordion.styl"
+@import "list.styl"
+@import "landing.styl"
